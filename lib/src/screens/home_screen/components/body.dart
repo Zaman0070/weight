@@ -154,6 +154,8 @@ class Body extends StatelessWidget {
                       )
                     ],
                   ),
+                 SizedBox(height: 15,),
+
                   SizedBox(
                     height: getProportionateScreenHeight(15),
                   ),

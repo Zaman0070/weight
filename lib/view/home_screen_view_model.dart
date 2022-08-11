@@ -29,6 +29,12 @@ class HomeScreenViewModel extends BaseModel {
       db.collection('weights').doc(uid).collection("userWeights").add({
         'value': addweightController.text,
         'time': DateTime.now().millisecondsSinceEpoch,
+        'docId': db
+            .collection('weights')
+            .doc(uid)
+            .collection("userWeights")
+            .doc()
+            .id,
       });
     }
     addweightController.clear();

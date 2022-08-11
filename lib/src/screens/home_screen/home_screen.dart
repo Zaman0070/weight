@@ -48,7 +48,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   model: model,
                 ),
               ),
-             // DetailsScreen(),
+              DetailsScreen(),
               UserProfile(
                 onThemeModeChanged: widget.onThemeModeChanged,
                 flexSchemeData: widget.flexSchemeData,
