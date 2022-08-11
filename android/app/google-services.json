@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "505793794020",
+    "project_id": "one-rupees-dd65c",
+    "storage_bucket": "one-rupees-dd65c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505793794020:android:f174f6f026b2563d7f01f1",
+        "android_client_info": {
+          "package_name": "com.example.one_rupees"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505793794020-3hgrob28kv5pptqhjo6720uvlocs94mb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC19q7M2oKp2ikcZE0LlslKtY5lbcY8zzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505793794020-3hgrob28kv5pptqhjo6720uvlocs94mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
