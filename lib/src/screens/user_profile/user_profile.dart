@@ -131,13 +131,7 @@ class UserProfile extends StatelessWidget {
                             ),
                           ],
                         ),
-                        FlexThemeModeSwitch(
-                          themeMode: themeMode as ThemeMode,
-                          onThemeModeChanged:
-                              onThemeModeChanged as void Function(ThemeMode),
-                          flexSchemeData: flexSchemeData as FlexSchemeData,
-                          buttonOrder: FlexThemeModeButtonOrder.lightSystemDark,
-                        ),
+
                       ],
                     )
                   : Center(
