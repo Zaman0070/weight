@@ -57,14 +57,14 @@ class CustomDialogBox extends StatelessWidget {
             children: <Widget>[
               Text(
                 title!,
-                style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600),
+                style: TextStyle(fontSize: 22, fontWeight: FontWeight.w600,color: Colors.black),
               ),
               SizedBox(
                 height: 15,
               ),
               Text(
                 descriptions!,
-                style: TextStyle(fontSize: 14),
+                style: TextStyle(fontSize: 14,color: Colors.black),
                 textAlign: TextAlign.center,
               ),
               SizedBox(
@@ -87,6 +87,7 @@ class CustomDialogBox extends StatelessWidget {
                           child: Text(
                             'Cancel',
                             style: TextStyle(
+
                               fontSize: 20,
                             ),
                           ),
